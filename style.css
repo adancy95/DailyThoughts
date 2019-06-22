@@ -1,0 +1,56 @@
+/* 
+color1: rgba(175, 56, 0, 1);
+color2: rgba(254, 98, 29, 1);
+color3: rgba(253, 82, 0, 1);
+color4: rgba(0, 207, 193, 1);
+color5: rgba(0, 255, 231, 1);
+ */
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* section 1 */
+/* side Bar */
+.left-tool-menu{
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.side-menu{
+    background-color: lightgray;
+    border-bottom: 2px solid pink;
+    text-align: center;
+    font-size: 30px;
+}
+.side-menu h3{
+    font-size: 50px;
+}
+.entryButton{
+    background-color: rgba(0, 207, 193, 1);
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+}
+.side-menu ul{
+    list-style-type: none;
+}
+.side-menu li{
+    padding: 10px 0 10px 0;
+}
+.colorDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colorSquares{
+    width: 50%;
+    padding:  10px 0 10px 0;
+}
